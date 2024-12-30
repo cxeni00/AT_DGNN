@@ -1,1 +1,1 @@
-# AT_DGNN
+# AT-DGNN
