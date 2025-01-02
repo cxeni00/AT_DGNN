@@ -55,12 +55,12 @@ cd AT_DGNN
 
 2.	MEEG 데이터셋을 다운로드하여 data/ 디렉토리에 저장합니다.[data down load](https://drive.google.com/drive/folders/1Tabw5sjpFiwy88yP-C-LnunNFrrre9AR)
 
-### 3.	실행
+### 3-실행
 ```bash
 python main.py
 ```
 
-## 3. 프로젝트 구조
+## 프로젝트-구조
 ```plaintext
 AT_DGNN/
 ├── config/            # 설정 파일 
