@@ -53,7 +53,7 @@ git clone https://github.com/cxeni00/AT_DGNN.git
 cd AT_DGNN
 ```
 
-2.	MEEG 데이터셋을 다운로드하여 data/ 디렉토리에 저장합니다.[data down load](https://drive.google.com/drive/folders/1Tabw5sjpFiwy88yP-C-LnunNFrrre9AR)
+2.	MEEG 데이터셋을 다운로드하여 data/ 디렉토리에 저장합니다.[data download](https://drive.google.com/drive/folders/1Tabw5sjpFiwy88yP-C-LnunNFrrre9AR)
 
 ### 3. 실행
 ```bash
