@@ -1,9 +1,6 @@
 # AT-DGNN
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
-
-이 저장소는 [AT-DGNN](https://github.com/xmh1011/AT-DGNN.git) 코드를 기반으로 MEEG 데이터셋에 맞춰 수정한 프로젝트입니다. 본 프로젝트는 신경영상 및 EEG 디코딩 작업을 지원하기 위해 AT-DGNN 모델을 최적화하였으며, 구현 및 학습 내용을 포함하고 있습니다.
+이 저장소는 [AT-DGNN](https://github.com/xmh1011/AT-DGNN.git) 코드를 기반으로 MEEG 데이터셋에 맞춰 수정한 프로젝트입니다. 구현 및 학습 내용을 포함하고 있습니다.
 
 ---
 
@@ -15,9 +12,6 @@
   - [설치](#2-설치)
   - [실행](#3-실행)
 - [프로젝트 구조](#프로젝트-구조)
-- [학습 및 구현 내용](#학습-및-구현-내용)
-- [기여 방법](#기여-방법)
-- [라이선스](#라이선스)
 
 ---
 
@@ -51,6 +45,35 @@
 ```bash
 pip install -r requirements.txt
 ```
+
+### 2. 설치
+1.	저장소를 클론합니다:
+```bash
+git clone https://github.com/cxeni00/AT_DGNN.git
+cd AT_DGNN
+```
+
+2.	MEEG 데이터셋을 다운로드하여 data/ 디렉토리에 저장합니다.[data down load](https://drive.google.com/drive/folders/1Tabw5sjpFiwy88yP-C-LnunNFrrre9AR)
+
+3.	실행
+```bash
+python main.py
+```
+
+### 3. 프로젝트 구조
+```plaintext
+AT_DGNN/
+├── config/            # 설정 파일 
+├── data/              # MEEG 데이터셋
+├── models/            # 수정된 AT-DGNN 모델 파일
+├── train/             # 모델 학습 
+├── utils/             # 유틸리티 함수 및 도구
+├── main.py            # 실행 파일
+├── requirements.txt   # 필요한 Python 라이브러리 목록
+└── README.md          # 프로젝트 문서
+```
+
+
 
 
 
